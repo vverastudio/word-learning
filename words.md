@@ -1,16 +1,16 @@
-## Shakespear - who was he?
+## Shakespeare - who was he?
 
 reproach - wyrzuty
 lease - okres trwania
 brag - przechwalać się
-gilde - złościć się
+gripe - złościć się
 chide - czynić wyrzuty
-??? alderman - nadny
+alderman - radny
 illiterate - niepiśmienny, analfabeta
 entrepreneur - przedsiębiorca
 strife - walka
 to strive - walczyć
-??? calenity - nieszczęście
+calamity - nieszczęście
 go bust - zbankrutować / splajtować
 trauma - trauma
 law case - sprawa sądowa
@@ -20,7 +20,7 @@ gigolo - kobieciarz
 
 ## Oscar Wilde
 denounce - potępiać
-??? ponce - sutenei
+ponce - sutener
 libel - oszczerstwo
 gross indecency - rażąca nieprzyzwoitość
 outcome - wynik
@@ -31,14 +31,14 @@ hostility - wrogość
 eccentric - ekscentryczny
 paradoxical - paradoksalny
 success - sukces
-witt - dowcip
+wit - dowcip
 inflict - wymierzać
 ostensibly - rzekomo
-??? repudlicate - odtrącać
-??? decaolence - schyłek / upadek
+repudiate - odtrącać
+decadence - schyłek / upadek
 disjointed - bezładny
 tour de force - genialne posunięcie
-??? castiage - potępiać
+castigate - potępiać
 squalor - plugawość
 gross - rażący
 advocate - orędować
@@ -46,7 +46,7 @@ acute - spostrzegawczy
 envisage - wyobrażać sobie
 quaint - urokliwy
 dexterity - zręczność / sprawczość
-??? spendthrift - rozrzutnik
+spendthrift - rozrzutnik
 predeceased - umrzeć wcześniej
 philander - romansować
 flamboyant - ekstrawagancki
@@ -54,38 +54,38 @@ overtly - jawnie / otwarcie
 
 ## Whatever from tf that was
 
-??? middlebraw - niewyszukany, pospolity
+middlebrow - niewyszukany, pospolity
 propitious - sprzyjający
 to coin a word - stworzyć wyrażenie
 pointed - uszczypliwy
 clever - sprytny, mądry
 economical with words - oszczędny w słowach
 compulsion - przymus / konieczność
-offputting - odpychający
+off-putting - odpychający
 estimate - oszacować
-??? estimable pleasure of freedome - warta docenienia przyjemność z wolności
+estimable pleasure of freedom - warta docenienia przyjemność z wolności
 juxtapose - zestawić ze sobą
 
-## The Luncheaon
+## The Luncheon
 lucidity - klarowność, jasność
 mortifying - upokarzający
-beckon - kiwać palcem, bo kogoś przywołać
+beckon - kiwać palcem, by kogoś przywołać
 consequence - waga / znaczenie
 casually - swobodnie / niezobowiązkowo
 succulent - soczysty
-abandoned - porzucony / nawiedzony
+abandoned - porzucony / opuszczony
 voluptuous - zmysłowy, przyjemny
-??? ingratiating - przymilny
+ingratiating - przymilny
 vindictive - mściwy / złośliwy
 complacency - samozadowolenie
 stone - 6,35 kg (stopień miary)
 lucid - przejrzysty
 retort - riposta
 absentminded - roztargniony
-??? effusive - wylewny
-meanness - podły
+effusive - wylewny
+meanness - podłość
 far beyond my means - poza moimi możliwościami
-by all means - za wszelką cenę
+by all means - oczywiście / jak najbardziej
 scrutinized - badać dokładnie
 
 ## Sonnets
