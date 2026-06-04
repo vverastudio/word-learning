@@ -3,6 +3,7 @@ const sounds = {
   success: "/sfx/succes.mp3",
   mistake: "/sfx/mistake.mp3",
   swoosh: "/sfx/swoosh.mp3",
+  start: "/sfx/start.mp3",
 } as const;
 
 const audioCache = new Map<string, HTMLAudioElement>();

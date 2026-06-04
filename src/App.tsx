@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import type { View } from "./types.ts";
 import type { WordEntry } from "./types.ts";
 import wordsData from "./words.json";
-import { ConfettiProvider } from "typegpu-confetti/react";
+// import { ConfettiProvider } from "typegpu-confetti/react";
+import { useSound } from "./hooks/useSound.ts";
 import { MainMenu } from "./components/MainMenu.tsx";
 import { Lesson } from "./components/Lesson.tsx";
 import { Revision } from "./components/Revision.tsx";
@@ -13,6 +14,15 @@ const categories = [...new Set(allWords.map((w) => w.category))];
 export function App() {
   const [view, setView] = useState<View>("menu");
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const prevView = useRef(view);
+  const { play } = useSound();
+
+  useEffect(() => {
+    if (prevView.current === "menu" && (view === "lesson" || view === "revision")) {
+      play("start");
+    }
+    prevView.current = view;
+  }, [view, play]);
 
   function toggleCategory(cat: string) {
     setSelectedCategories((prev) =>

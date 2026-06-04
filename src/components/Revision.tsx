@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { WordEntry } from "../types.ts";
 import { useTTS } from "../hooks/useTTS.ts";
+import { useSound } from "../hooks/useSound.ts";
 
 interface RevisionProps {
   words: WordEntry[];
@@ -48,6 +49,7 @@ function gradeAnswer(answer: string, correct: string): number {
 
 export function Revision({ words, onDone }: RevisionProps) {
   const { speak } = useTTS();
+  const { play } = useSound();
 
   const [queue] = useState<WordEntry[]>(() => [...words].sort(() => Math.random() - 0.5));
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -59,12 +61,19 @@ export function Revision({ words, onDone }: RevisionProps) {
 
   function handleSubmit() {
     if (input.trim() === "") return;
+    play("click");
     const grade = gradeAnswer(input, current.word);
+    if (grade >= 0.9) {
+      play("success");
+    } else if (grade > 0) {
+      play("mistake");
+    }
     setResults((prev) => [...prev, { word: current, answer: input, grade }]);
     setSubmitted(true);
   }
 
   function handleNext() {
+    play("swoosh");
     if (currentIndex < queue.length - 1) {
       setCurrentIndex((i) => i + 1);
       setInput("");
