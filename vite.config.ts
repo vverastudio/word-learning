@@ -2,6 +2,7 @@ import { defineConfig } from "vite-plus";
 import basicSsl from "@vitejs/plugin-basic-ssl";
 
 export default defineConfig({
+  base: "/word-learning/",
   plugins: [
     {
       ...basicSsl(),
