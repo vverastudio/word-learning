@@ -18,12 +18,18 @@ importers:
 
   .:
     dependencies:
+      '@typegpu/react':
+        specifier: ^0.11.1
+        version: 0.11.1(react@19.2.7)(typegpu@0.11.8)
       react:
         specifier: ^19.2.7
         version: 19.2.7
       react-dom:
         specifier: ^19.2.7
         version: 19.2.7(react@19.2.7)
+      typegpu-confetti:
+        specifier: ^0.3.0
+        version: 0.3.0(@typegpu/react@0.11.1(react@19.2.7)(typegpu@0.11.8))(react@19.2.7)
     devDependencies:
       '@types/react':
         specifier: ^19.2.16
@@ -31,6 +37,9 @@ importers:
       '@types/react-dom':
         specifier: ^19.2.3
         version: 19.2.3(@types/react@19.2.16)
+      '@vitejs/plugin-basic-ssl':
+        specifier: ^2.3.0
+        version: 2.3.0(@voidzero-dev/vite-plus-core@0.1.24(typescript@6.0.3))
       typescript:
         specifier: ~6.0.2
         version: 6.0.3
@@ -334,6 +343,24 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
+  '@typegpu/noise@0.11.0':
+    resolution: {integrity: sha512-4q5unoJz6MniMFIsazxCwiQFsaAV6YZD1iNdiXV/H6tWGi40Plknpm2Azn1ZMDaJIg6gz1sokp5sDXEbfqKIIw==}
+    peerDependencies:
+      typegpu: ^0.11.0
+
+  '@typegpu/react@0.11.1':
+    resolution: {integrity: sha512-qLWA8KEWZOIpi3zmqrg/IpDw7g6CGy3qneBMpFfu6uxImBZ5gtVtOnndDJ8tIWqiMDD1TAI7wN38gjme/SGtMA==}
+    peerDependencies:
+      react: ^19.0.0
+      react-native: '*'
+      react-native-wgpu: '*'
+      typegpu: ^0.11.7
+    peerDependenciesMeta:
+      react-native:
+        optional: true
+      react-native-wgpu:
+        optional: true
+
   '@types/chai@5.2.3':
     resolution: {integrity: sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==}
 
@@ -347,6 +374,12 @@ packages:
 
   '@types/react@19.2.16':
     resolution: {integrity: sha512-esJiCAnl0kfpNdE69f3So4WJUXy95dLZydX0KwK46riIHDzHM7O9Vtf9xCHW0PXIqvgqNrswl522kA/5yx+F4w==}
+
+  '@vitejs/plugin-basic-ssl@2.3.0':
+    resolution: {integrity: sha512-bdyo8rB3NnQbikdMpHaML9Z1OZPBu6fFOBo+OtxsBlvMJtysWskmBcnbIDhUqgC8tcxNv/a+BcV5U+2nQMm1OQ==}
+    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
+    peerDependencies:
+      vite: ^6.0.0 || ^7.0.0 || ^8.0.0
 
   '@voidzero-dev/vite-plus-core@0.1.24':
     resolution: {integrity: sha512-iXPGBABnQnrDMx89H6MOCGcTZp+QW+3rY4YMVKdE6ydchSvPk2O3MI2vgaRVfOtWJ2IjnxSnf1n2yjP67ZBRFQ==}
@@ -683,6 +716,10 @@ packages:
   tinybench@2.9.0:
     resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
 
+  tinyest@0.3.2:
+    resolution: {integrity: sha512-1wqSt97RLezWzeogLSVXHr+E3jpYO8jxyaK2AIdJeGoZZTCubwNxQ9IqU5gbQpJVcxlbPugPAsII+m9/gqpPSA==}
+    engines: {node: '>=12.20.0'}
+
   tinyexec@1.2.4:
     resolution: {integrity: sha512-SHf/r48b7vOrjve9PxJo3MN5v5yuyjHvdUcrQffT3WXMUfnGmHDVbC4k3sHJaJTgZCwpUplIaAo5ANtMyp3YHg==}
     engines: {node: '>=18'}
@@ -698,6 +735,33 @@ packages:
   totalist@3.0.1:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
+
+  tsover-runtime@0.0.7:
+    resolution: {integrity: sha512-FHHwMJzZbnP23+fU1PxXljy7j0RRRosL2r1/CRUNTqfW+l7m35JsUkM615x/cAzw4GqRdXPIl3axKMj9qzpZtQ==}
+
+  typed-binary@4.3.3:
+    resolution: {integrity: sha512-W2hLsSzt3k/tg38gDE4Fn/QiwcoqGuUHBc2cb3mXuH7KcYxe/GM57vzW14s2/bawB4R5knGgGq8Xb57vsaJ4Sg==}
+
+  typegpu-confetti@0.3.0:
+    resolution: {integrity: sha512-PLIkEkhGaNfrpgWIuuUwP5h4YAGzAKFQ/gv3z7waoPAqwpK5ooeAVgcOoQRtlxM1yp15MJUUVRbIfukEG6anFg==}
+    engines: {node: '>=22.0.0'}
+    peerDependencies:
+      '@typegpu/react': '*'
+      react: '*'
+      react-native: '*'
+      react-native-wgpu: '>=0.4.2'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-native:
+        optional: true
+      react-native-wgpu:
+        optional: true
+
+  typegpu@0.11.8:
+    resolution: {integrity: sha512-aEVdtGDTWrXB5yVCwriM84iyfnw8dHWiXVTA2Hr9hnJN2F4IXKainTVKd3HP2/lPHqDg5iYjt7yL//p2sJAWBg==}
+    engines: {node: '>=12.20.0'}
+    hasBin: true
 
   typescript@6.0.3:
     resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
@@ -865,6 +929,15 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
+  '@typegpu/noise@0.11.0(typegpu@0.11.8)':
+    dependencies:
+      typegpu: 0.11.8
+
+  '@typegpu/react@0.11.1(react@19.2.7)(typegpu@0.11.8)':
+    dependencies:
+      react: 19.2.7
+      typegpu: 0.11.8
+
   '@types/chai@5.2.3':
     dependencies:
       '@types/deep-eql': 4.0.2
@@ -879,6 +952,10 @@ snapshots:
   '@types/react@19.2.16':
     dependencies:
       csstype: 3.2.3
+
+  '@vitejs/plugin-basic-ssl@2.3.0(@voidzero-dev/vite-plus-core@0.1.24(typescript@6.0.3))':
+    dependencies:
+      vite: '@voidzero-dev/vite-plus-core@0.1.24(typescript@6.0.3)'
 
   '@voidzero-dev/vite-plus-core@0.1.24(typescript@6.0.3)':
     dependencies:
@@ -1117,6 +1194,8 @@ snapshots:
 
   tinybench@2.9.0: {}
 
+  tinyest@0.3.2: {}
+
   tinyexec@1.2.4: {}
 
   tinyglobby@0.2.17:
@@ -1127,6 +1206,24 @@ snapshots:
   tinypool@2.1.0: {}
 
   totalist@3.0.1: {}
+
+  tsover-runtime@0.0.7: {}
+
+  typed-binary@4.3.3: {}
+
+  typegpu-confetti@0.3.0(@typegpu/react@0.11.1(react@19.2.7)(typegpu@0.11.8))(react@19.2.7):
+    dependencies:
+      '@typegpu/noise': 0.11.0(typegpu@0.11.8)
+      '@typegpu/react': 0.11.1(react@19.2.7)(typegpu@0.11.8)
+      typegpu: 0.11.8
+    optionalDependencies:
+      react: 19.2.7
+
+  typegpu@0.11.8:
+    dependencies:
+      tinyest: 0.3.2
+      tsover-runtime: 0.0.7
+      typed-binary: 4.3.3
 
   typescript@6.0.3: {}
 

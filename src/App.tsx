@@ -2,6 +2,7 @@ import { useState } from "react";
 import type { View } from "./types.ts";
 import type { WordEntry } from "./types.ts";
 import wordsData from "./words.json";
+import { ConfettiProvider } from "typegpu-confetti/react";
 import { MainMenu } from "./components/MainMenu.tsx";
 import { Lesson } from "./components/Lesson.tsx";
 import { Revision } from "./components/Revision.tsx";

@@ -3,6 +3,7 @@ import type { WordEntry } from "../types.ts";
 import { loadProgress, recordGuess, getScore } from "../store.ts";
 import { useSound } from "../hooks/useSound.ts";
 import { useTTS } from "../hooks/useTTS.ts";
+import { useConfetti } from "typegpu-confetti/react";
 
 interface LessonProps {
   words: WordEntry[];
@@ -40,6 +41,7 @@ function SpeakerIcon() {
 export function Lesson({ words, onDone }: LessonProps) {
   const { play } = useSound();
   const { speak } = useTTS();
+  const confettiRef = useConfetti();
 
   const [lessonWords, setLessonWords] = useState<LessonWord[]>(() =>
     words.map((w) => ({ ...w, correctlyGuessed: false })),
@@ -92,6 +94,7 @@ export function Lesson({ words, onDone }: LessonProps) {
 
     if (entry.word === current.word) {
       play("success");
+      confettiRef?.current?.addParticles(80);
       recordGuess(current.word, true);
       setLessonWords((prev) =>
         prev.map((w) => (w.word === current.word ? { ...w, correctlyGuessed: true } : w)),

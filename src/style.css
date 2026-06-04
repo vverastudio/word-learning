@@ -23,7 +23,7 @@
   --radius: 16px;
   --radius-sm: 10px;
 
-  font-family: "Nunito", system-ui, sans-serif;
+  font-family: "Nunito", "Segoe UI", system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: var(--text);
@@ -47,7 +47,7 @@ body {
 }
 
 h1 {
-  font-family: "Fredoka", system-ui, sans-serif;
+  font-family: "Lexend", system-ui, sans-serif;
   font-size: 36px;
   font-weight: 600;
   color: var(--text-h);
@@ -57,7 +57,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Fredoka", system-ui, sans-serif;
+  font-family: "Lexend", system-ui, sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: var(--text-h);
@@ -100,13 +100,13 @@ h2 {
 }
 
 .stat:last-child {
-  background: linear-gradient(135deg, var(--secondary-bg), var(--purple));
-  border: 2px solid rgba(6, 182, 212, 0.2);
+  background: var(--secondary-bg);
+  border: 2px solid rgba(6, 182, 212, 0.25);
 }
 
 .stat-value {
   display: block;
-  font-family: "Fredoka", system-ui, sans-serif;
+  font-family: "Lexend", system-ui, sans-serif;
   font-size: 30px;
   font-weight: 600;
   color: var(--text-h);
@@ -139,7 +139,7 @@ h2 {
 }
 
 .category-pill {
-  font-family: "Nunito", system-ui, sans-serif;
+  font-family: "Nunito", "Segoe UI", system-ui, sans-serif;
   font-size: 13px;
   font-weight: 700;
   padding: 8px 16px;
@@ -191,16 +191,21 @@ h2 {
 /* ─── Buttons ─── */
 
 .btn {
-  font-family: "Nunito", system-ui, sans-serif;
+  font-family: "Nunito", "Segoe UI", system-ui, sans-serif;
   font-size: 15px;
   font-weight: 700;
-  padding: 14px 24px;
+  padding: 0 24px;
+  height: 44px;
   border-radius: var(--radius-sm);
   border: none;
   cursor: pointer;
   transition: all 0.2s;
   flex: 1;
   letter-spacing: -0.2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .btn:disabled {
@@ -287,7 +292,7 @@ h2 {
 }
 
 .card-description {
-  font-family: "Fredoka", system-ui, sans-serif;
+  font-family: "Lexend", system-ui, sans-serif;
   font-size: 24px;
   font-weight: 500;
   color: var(--text-h);
@@ -313,7 +318,7 @@ h2 {
 }
 
 .option {
-  font-family: "Nunito", system-ui, sans-serif;
+  font-family: "Nunito", "Segoe UI", system-ui, sans-serif;
   font-size: 15px;
   font-weight: 700;
   padding: 16px 12px;
@@ -446,7 +451,7 @@ h2 {
 }
 
 .grade {
-  font-family: "Fredoka", system-ui, sans-serif;
+  font-family: "Lexend", system-ui, sans-serif;
   font-size: 28px;
   color: var(--text-h);
   margin-bottom: 24px;
@@ -461,7 +466,7 @@ h2 {
 }
 
 .revision-input {
-  font-family: "Nunito", system-ui, sans-serif;
+  font-family: "Nunito", "Segoe UI", system-ui, sans-serif;
   font-size: 16px;
   font-weight: 600;
   padding: 12px 16px;
@@ -534,13 +539,13 @@ h2 {
 }
 
 .rev-word {
-  font-family: "Fredoka", system-ui, sans-serif;
+  font-family: "Lexend", system-ui, sans-serif;
   font-weight: 600;
   color: var(--text-h);
 }
 
 .rev-answer {
-  font-family: "Nunito", system-ui, sans-serif;
+  font-family: "Nunito", "Segoe UI", system-ui, sans-serif;
   font-weight: 600;
   font-size: 13px;
   color: var(--text);
@@ -552,7 +557,7 @@ h2 {
 }
 
 .rev-score {
-  font-family: "Fredoka", system-ui, sans-serif;
+  font-family: "Lexend", system-ui, sans-serif;
   font-weight: 600;
   font-size: 14px;
 }

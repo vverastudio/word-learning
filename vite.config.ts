@@ -1,6 +1,15 @@
 import { defineConfig } from "vite-plus";
+import basicSsl from "@vitejs/plugin-basic-ssl";
 
 export default defineConfig({
+  plugins: [
+    {
+      ...basicSsl(),
+      apply(_, { mode }) {
+        return mode === "https";
+      },
+    },
+  ],
   fmt: {},
   lint: {
     jsPlugins: [{ name: "vite-plus", specifier: "vite-plus/oxlint-plugin" }],
