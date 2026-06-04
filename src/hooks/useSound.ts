@@ -1,9 +1,9 @@
 const sounds = {
-  click: "/sfx/click.mp3",
-  success: "/sfx/succes.mp3",
-  mistake: "/sfx/mistake.mp3",
-  swoosh: "/sfx/swoosh.mp3",
-  start: "/sfx/start.mp3",
+  click: "/word-learning/sfx/click.mp3",
+  success: "/word-learning/sfx/succes.mp3",
+  mistake: "/word-learning/sfx/mistake.mp3",
+  swoosh: "/word-learning/sfx/swoosh.mp3",
+  start: "/word-learning/sfx/start.mp3",
 } as const;
 
 const audioCache = new Map<string, HTMLAudioElement>();

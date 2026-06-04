@@ -158,6 +158,10 @@ export function Revision({ words, onDone }: RevisionProps) {
           onChange={(e) => setInput((e.target as HTMLInputElement).value)}
           placeholder="Type the English word..."
           disabled={submitted}
+          autoComplete="off"
+          autoCorrect="off"
+          autoCapitalize="off"
+          spellCheck={false}
           autoFocus
         />
         {!submitted && (
