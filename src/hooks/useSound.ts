@@ -6,23 +6,52 @@ const sounds = {
   start: "/word-learning/sfx/start.mp3",
 } as const;
 
-const audioCache = new Map<string, HTMLAudioElement>();
+let audioContext: AudioContext | null = null;
+const bufferCache = new Map<string, AudioBuffer>();
+const pendingFetches = new Map<string, Promise<AudioBuffer>>();
 
-function getAudio(src: string): HTMLAudioElement {
-  let audio = audioCache.get(src);
-  if (!audio) {
-    audio = new Audio(src);
-    audioCache.set(src, audio);
+function getContext(): AudioContext {
+  if (!audioContext) {
+    audioContext = new AudioContext();
   }
-  return audio;
+  if (audioContext.state === "suspended") {
+    void audioContext.resume();
+  }
+  return audioContext;
+}
+
+function decodeAudio(src: string): Promise<AudioBuffer> {
+  const cached = bufferCache.get(src);
+  if (cached) return Promise.resolve(cached);
+
+  const pending = pendingFetches.get(src);
+  if (pending) return pending;
+
+  const promise = (async () => {
+    const ctx = getContext();
+    const response = await fetch(src);
+    const arrayBuffer = await response.arrayBuffer();
+    const audioBuffer = await ctx.decodeAudioData(arrayBuffer);
+    bufferCache.set(src, audioBuffer);
+    pendingFetches.delete(src);
+    return audioBuffer;
+  })();
+
+  pendingFetches.set(src, promise);
+  return promise;
 }
 
 export function useSound() {
   function play(name: keyof typeof sounds) {
+    const ctx = getContext();
     const src = sounds[name];
-    const audio = getAudio(src);
-    audio.currentTime = 0;
-    audio.play().catch(() => {});
+
+    void decodeAudio(src).then((buffer) => {
+      const source = ctx.createBufferSource();
+      source.buffer = buffer;
+      source.connect(ctx.destination);
+      source.start();
+    });
   }
 
   return { play };
