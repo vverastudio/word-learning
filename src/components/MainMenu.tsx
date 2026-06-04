@@ -38,7 +38,7 @@ export function MainMenu({
           <span className="stat-value">
             {knownCount}/{total}
           </span>
-          <span className="stat-label">known (≥0.8)</span>
+          <span className="stat-label">known</span>
         </div>
       </div>
 

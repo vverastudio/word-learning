@@ -24,18 +24,19 @@ export function recordGuess(word: string, correct: boolean): WordProgress {
   return progress;
 }
 
+const WINDOW_SIZE = 5;
+
 export function getScore(record: GuessRecord | undefined): number {
   if (!record) return 0;
-  const totalCorrect = record.guesses.filter(Boolean).length;
-  if (totalCorrect < 5) return 0;
-  const recent = record.guesses.slice(-20);
+  if (record.guesses.length < WINDOW_SIZE) return 0;
+  const recent = record.guesses.slice(-WINDOW_SIZE);
   return recent.filter(Boolean).length / recent.length;
-}
-
-export function hasBeenSeen(record: GuessRecord | undefined): boolean {
-  return (record?.guesses.length ?? 0) > 0;
 }
 
 export function isKnown(record: GuessRecord | undefined): boolean {
   return getScore(record) >= 0.8;
+}
+
+export function hasBeenSeen(record: GuessRecord | undefined): boolean {
+  return (record?.guesses.length ?? 0) > 0;
 }
