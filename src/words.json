@@ -1,0 +1,182 @@
+{
+  "words": [
+    { "word": "reproach", "description": "wyrzuty", "category": "Shakespeare - who was he?" },
+    { "word": "lease", "description": "okres trwania", "category": "Shakespeare - who was he?" },
+    { "word": "brag", "description": "przechwalać się", "category": "Shakespeare - who was he?" },
+    { "word": "gripe", "description": "złościć się", "category": "Shakespeare - who was he?" },
+    { "word": "chide", "description": "czynić wyrzuty", "category": "Shakespeare - who was he?" },
+    { "word": "alderman", "description": "radny", "category": "Shakespeare - who was he?" },
+    {
+      "word": "illiterate",
+      "description": "niepiśmienny, analfabeta",
+      "category": "Shakespeare - who was he?"
+    },
+    {
+      "word": "entrepreneur",
+      "description": "przedsiębiorca",
+      "category": "Shakespeare - who was he?"
+    },
+    { "word": "strife", "description": "walka", "category": "Shakespeare - who was he?" },
+    { "word": "to strive", "description": "walczyć", "category": "Shakespeare - who was he?" },
+    { "word": "calamity", "description": "nieszczęście", "category": "Shakespeare - who was he?" },
+    {
+      "word": "go bust",
+      "description": "zbankrutować / splajtować",
+      "category": "Shakespeare - who was he?"
+    },
+    { "word": "trauma", "description": "trauma", "category": "Shakespeare - who was he?" },
+    { "word": "law case", "description": "sprawa sądowa", "category": "Shakespeare - who was he?" },
+    {
+      "word": "business terms",
+      "description": "warunki handlowe",
+      "category": "Shakespeare - who was he?"
+    },
+    { "word": "modest", "description": "skromny", "category": "Shakespeare - who was he?" },
+    { "word": "gigolo", "description": "kobieciarz", "category": "Shakespeare - who was he?" },
+
+    { "word": "denounce", "description": "potępiać", "category": "Oscar Wilde" },
+    { "word": "ponce", "description": "sutener", "category": "Oscar Wilde" },
+    { "word": "libel", "description": "oszczerstwo", "category": "Oscar Wilde" },
+    {
+      "word": "gross indecency",
+      "description": "rażąca nieprzyzwoitość",
+      "category": "Oscar Wilde"
+    },
+    { "word": "outcome", "description": "wynik", "category": "Oscar Wilde" },
+    { "word": "inevitable", "description": "nieunikniony", "category": "Oscar Wilde" },
+    { "word": "achievement", "description": "osiągnięcie", "category": "Oscar Wilde" },
+    { "word": "crucial", "description": "kluczowy", "category": "Oscar Wilde" },
+    { "word": "hostility", "description": "wrogość", "category": "Oscar Wilde" },
+    { "word": "eccentric", "description": "ekscentryczny", "category": "Oscar Wilde" },
+    { "word": "paradoxical", "description": "paradoksalny", "category": "Oscar Wilde" },
+    { "word": "success", "description": "sukces", "category": "Oscar Wilde" },
+    { "word": "wit", "description": "dowcip", "category": "Oscar Wilde" },
+    { "word": "inflict", "description": "wymierzać", "category": "Oscar Wilde" },
+    { "word": "ostensibly", "description": "rzekomo", "category": "Oscar Wilde" },
+    { "word": "repudiate", "description": "odtrącać", "category": "Oscar Wilde" },
+    { "word": "decadence", "description": "schyłek / upadek", "category": "Oscar Wilde" },
+    { "word": "disjointed", "description": "bezładny", "category": "Oscar Wilde" },
+    { "word": "tour de force", "description": "genialne posunięcie", "category": "Oscar Wilde" },
+    { "word": "castigate", "description": "potępiać", "category": "Oscar Wilde" },
+    { "word": "squalor", "description": "plugawość", "category": "Oscar Wilde" },
+    { "word": "gross", "description": "rażący", "category": "Oscar Wilde" },
+    { "word": "advocate", "description": "orędować", "category": "Oscar Wilde" },
+    { "word": "acute", "description": "spostrzegawczy", "category": "Oscar Wilde" },
+    { "word": "envisage", "description": "wyobrażać sobie", "category": "Oscar Wilde" },
+    { "word": "quaint", "description": "urokliwy", "category": "Oscar Wilde" },
+    { "word": "dexterity", "description": "zręczność / sprawczość", "category": "Oscar Wilde" },
+    { "word": "spendthrift", "description": "rozrzutnik", "category": "Oscar Wilde" },
+    { "word": "predeceased", "description": "umrzeć wcześniej", "category": "Oscar Wilde" },
+    { "word": "philander", "description": "romansować", "category": "Oscar Wilde" },
+    { "word": "flamboyant", "description": "ekstrawagancki", "category": "Oscar Wilde" },
+    { "word": "overtly", "description": "jawnie / otwarcie", "category": "Oscar Wilde" },
+
+    {
+      "word": "middlebrow",
+      "description": "niewyszukany, pospolity",
+      "category": "Whatever from tf that was"
+    },
+    { "word": "propitious", "description": "sprzyjający", "category": "Whatever from tf that was" },
+    {
+      "word": "to coin a word",
+      "description": "stworzyć wyrażenie",
+      "category": "Whatever from tf that was"
+    },
+    { "word": "pointed", "description": "uszczypliwy", "category": "Whatever from tf that was" },
+    { "word": "clever", "description": "sprytny, mądry", "category": "Whatever from tf that was" },
+    {
+      "word": "economical with words",
+      "description": "oszczędny w słowach",
+      "category": "Whatever from tf that was"
+    },
+    {
+      "word": "compulsion",
+      "description": "przymus / konieczność",
+      "category": "Whatever from tf that was"
+    },
+    {
+      "word": "off-putting",
+      "description": "odpychający",
+      "category": "Whatever from tf that was"
+    },
+    { "word": "estimate", "description": "oszacować", "category": "Whatever from tf that was" },
+    {
+      "word": "estimable pleasure of freedom",
+      "description": "warta docenienia przyjemność z wolności",
+      "category": "Whatever from tf that was"
+    },
+    {
+      "word": "juxtapose",
+      "description": "zestawić ze sobą",
+      "category": "Whatever from tf that was"
+    },
+
+    { "word": "lucidity", "description": "klarowność, jasność", "category": "The Luncheon" },
+    { "word": "mortifying", "description": "upokarzający", "category": "The Luncheon" },
+    {
+      "word": "beckon",
+      "description": "kiwać palcem, by kogoś przywołać",
+      "category": "The Luncheon"
+    },
+    { "word": "consequence", "description": "waga / znaczenie", "category": "The Luncheon" },
+    {
+      "word": "casually",
+      "description": "swobodnie / niezobowiązkowo",
+      "category": "The Luncheon"
+    },
+    { "word": "succulent", "description": "soczysty", "category": "The Luncheon" },
+    { "word": "abandoned", "description": "porzucony / opuszczony", "category": "The Luncheon" },
+    { "word": "voluptuous", "description": "zmysłowy, przyjemny", "category": "The Luncheon" },
+    { "word": "ingratiating", "description": "przymilny", "category": "The Luncheon" },
+    { "word": "vindictive", "description": "mściwy / złośliwy", "category": "The Luncheon" },
+    { "word": "complacency", "description": "samozadowolenie", "category": "The Luncheon" },
+    { "word": "stone", "description": "6,35 kg (stopień miary)", "category": "The Luncheon" },
+    { "word": "lucid", "description": "przejrzysty", "category": "The Luncheon" },
+    { "word": "retort", "description": "riposta", "category": "The Luncheon" },
+    { "word": "absentminded", "description": "roztargniony", "category": "The Luncheon" },
+    { "word": "effusive", "description": "wylewny", "category": "The Luncheon" },
+    { "word": "meanness", "description": "podłość", "category": "The Luncheon" },
+    {
+      "word": "far beyond my means",
+      "description": "poza moimi możliwościami",
+      "category": "The Luncheon"
+    },
+    {
+      "word": "by all means",
+      "description": "oczywiście / jak najbardziej",
+      "category": "The Luncheon"
+    },
+    { "word": "scrutinized", "description": "badać dokładnie", "category": "The Luncheon" },
+
+    { "word": "least", "description": "najmniej", "category": "Sonnets" },
+    { "word": "extent", "description": "zakres", "category": "Sonnets" },
+    { "word": "pirated", "description": "pirackie", "category": "Sonnets" },
+    { "word": "begets", "description": "rodzi", "category": "Sonnets" },
+    { "word": "debt", "description": "dług", "category": "Sonnets" },
+    { "word": "spurred", "description": "pobudzony", "category": "Sonnets" },
+    { "word": "either", "description": "albo", "category": "Sonnets" },
+    { "word": "polish", "description": "wypolerować", "category": "Sonnets" },
+    { "word": "model", "description": "model, modelować", "category": "Sonnets" },
+    { "word": "gross", "description": "ogromny, całkowity", "category": "Sonnets" },
+
+    { "word": "disgrace", "description": "hańba", "category": "W. Somerset Maugham" },
+    { "word": "hindered", "description": "utrudniony", "category": "W. Somerset Maugham" },
+    { "word": "solicitor", "description": "adwokat", "category": "W. Somerset Maugham" },
+    {
+      "word": "knighted",
+      "description": "utytułowany szlachecko",
+      "category": "W. Somerset Maugham"
+    },
+    { "word": "orphaned", "description": "osierocony", "category": "W. Somerset Maugham" },
+    {
+      "word": "rejection",
+      "description": "odmowa / odrzucenie",
+      "category": "W. Somerset Maugham"
+    },
+    { "word": "revived", "description": "ożywiony", "category": "W. Somerset Maugham" },
+    { "word": "rift", "description": "rozłam w relacji", "category": "W. Somerset Maugham" },
+    { "word": "simultaneously", "description": "jednocześnie", "category": "W. Somerset Maugham" },
+    { "word": "struggling", "description": "zmagający się", "category": "W. Somerset Maugham" },
+    { "word": "quest", "description": "wyprawa", "category": "W. Somerset Maugham" }
+  ]
+}

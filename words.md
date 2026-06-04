@@ -19,6 +19,7 @@ modest - skromny
 gigolo - kobieciarz
 
 ## Oscar Wilde
+
 denounce - potępiać
 ponce - sutener
 libel - oszczerstwo
@@ -67,6 +68,7 @@ estimable pleasure of freedom - warta docenienia przyjemność z wolności
 juxtapose - zestawić ze sobą
 
 ## The Luncheon
+
 lucidity - klarowność, jasność
 mortifying - upokarzający
 beckon - kiwać palcem, by kogoś przywołać
@@ -89,6 +91,7 @@ by all means - oczywiście / jak najbardziej
 scrutinized - badać dokładnie
 
 ## Sonnets
+
 least - najmniej
 extent - zakres
 pirated - pirackie
@@ -101,6 +104,7 @@ model - model, modelować
 gross - ogromny, całkowity
 
 ## W. Somerset Maugham
+
 disgrace - hańba
 hindered - utrudniony
 solicitor - adwokat

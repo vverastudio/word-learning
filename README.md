@@ -1,10 +1,12 @@
 An app for learning English words from literature in the style of Quizlet or Anki.
 
 Design goals:
+
 - Vite + React + TypeScript app
 - Playful minimalistic design
 
 ## TODO:
+
 - Read words.md, and create a JSON file from them with a "words" field, an array of objects per word. Each word should have a "word" string field with the English word, a "description" field with the Polish description, and a "category" field that should be filled with the heading the word was located in. Place the file in src/ so the app can easily read it. The "word" field should be treated like a unique id, and whenever any derived information is stored about a word, it should be identified using that field.
 - Load the words from the JSON file, with info about the English word, the Polish translation, as well as the Category they belong to (the heading)
 - Allow the user to start a "lesson", pick from the available categories (can pick more than one), and the system should pick 4 words that are considered least "known" (meaning their scope is the lowest, where the score is 0 if the word has been correctly identified <5 times, or is a value between 0-1 that indicates the percentage of correct guesses in the span of the last up-to 20 guesses). During the lesson, the user is then shown a card with the Polish explanation on it, and is shown 4 English words as a solution. 3 of them are random, and the 4th is the correct solution, they must identify which one correctly describes the Polish description, and choose it. If they pick the wrong answer, the correct one is highlighted green so they can do it correctly next time. The system remembers if the user guessed it wrong or right, and saves it to local storage. The lesson lasts until all words were correctly identified at least once.
