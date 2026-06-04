@@ -504,6 +504,371 @@
       "word": "quest",
       "description": "wyprawa",
       "category": "W. Somerset Maugham"
+    },
+    {
+      "word": "fancy free",
+      "description": "wolny jak ptak",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "fair play",
+      "description": "grać uczciwie, trzymać się zasad",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "fight fire with fire",
+      "description": "pokonać wroga tą samą bronią",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "foul play",
+      "description": "być nieuczciwym",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "good riddance",
+      "description": "dobrze, że już po wszystkim / należało ci się, dobrze ci tak",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "green eyed monster",
+      "description": "zielonooki potwór (zazdrość)",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "for ever and a day",
+      "description": "do końca świata i jeden dzień dłużej",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "a foregone conclusion",
+      "description": "przesądzona sprawa, z góry wiadomy wynik",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "a dish fit for the gods",
+      "description": "coś bardzo okazałego",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "a sorry sight",
+      "description": "przykry widok",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "all that glitters is not gold",
+      "description": "nie wszystko złoto, co się świeci",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "all's well that ends well",
+      "description": "wszystko dobre, co się dobrze kończy",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "as dead as a doornail",
+      "description": "martwy jak kłoda",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "at one fell swoop",
+      "description": "za jednym zamachem",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "the be all and end all",
+      "description": "najważniejsza rzecz, sedno sprawy",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "high time",
+      "description": "najwyższy czas",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "in a pickle",
+      "description": "w tarapatach, w ciężkiej sytuacji",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "in stitches",
+      "description": "tak rozbawiony, rozbawiłeś mnie",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "in the twinkling of an eye",
+      "description": "w mgnieniu oka",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "lie low",
+      "description": "nie wychylać się",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "love is blind",
+      "description": "miłość jest ślepa",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "make your hair stand on end",
+      "description": "jeżyć włos na głowie, przerazić",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "more fool you",
+      "description": "tym gorzej dla ciebie, głupiś",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "much ado about nothing",
+      "description": "wiele hałasu o nic",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "woe is me",
+      "description": "biada mi",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "night owl",
+      "description": "nocny marek",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "send him packing",
+      "description": "odprawić kogoś z kwitkiem",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "the game is up",
+      "description": "sprawa przegrana, koniec gry",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "too much of a good thing",
+      "description": "co za dużo, to niezdrowo",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "up in arms",
+      "description": "oburzony, bardzo zdenerwowany",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "vanish into thin air",
+      "description": "zniknąć bez śladu",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "wear your heart on your sleeve",
+      "description": "mieć serce na dłoni",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "seen better days",
+      "description": "widziało lepsze dni",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "wild goose chase",
+      "description": "gonienie za czymś bez sensu",
+      "category": "Common Shakespeare Phrases"
+    },
+    {
+      "word": "unconventional",
+      "description": "niekonwencjonalny",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "childlike",
+      "description": "dziecięcy, ufny",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "distracted",
+      "description": "roztargniony",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "encouraging",
+      "description": "zachęcający, dodający otuchy",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "loveable",
+      "description": "uroczy, sympatyczny",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "supportive",
+      "description": "wspierający",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "gentle",
+      "description": "łagodny, delikatny",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "dispirited",
+      "description": "przygnębiony, zniechęcony",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "loving",
+      "description": "kochający, czuły",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "bewildered",
+      "description": "zdezorientowany, skonsternowany",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "cheerful",
+      "description": "radosny, pogodny",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "considerate",
+      "description": "troskliwy, uważny",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "gloomy",
+      "description": "ponury, przygnębiający",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "to whisk somebody (away)",
+      "description": "zabrać kogoś szybko, porwać",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "rumour",
+      "description": "plotka, pogłoska",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "prolific",
+      "description": "płodny (twórczo)",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "top notch",
+      "description": "najwyższej klasy, doskonały",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "crafty",
+      "description": "przebiegły, sprytny",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "unsteady",
+      "description": "chwiejny, niepewny",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "to scrabble",
+      "description": "gramolić się, szukać po omacku",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "to paw",
+      "description": "macać, obmacywać, grzebać łapami",
+      "category": "A Visit To Iris Murdoch"
+    },
+    {
+      "word": "to whisper",
+      "description": "szeptać",
+      "category": "Brave New World"
+    },
+    {
+      "word": "to shriek",
+      "description": "krzyczeć przenikliwie, piszczeć",
+      "category": "Brave New World"
+    },
+    {
+      "word": "to blurt out",
+      "description": "wygadać się, wypalić",
+      "category": "Brave New World"
+    },
+    {
+      "word": "to be lost for words",
+      "description": "stracić mowę, nie móc znaleźć słów",
+      "category": "Brave New World"
+    },
+    {
+      "word": "to mumble",
+      "description": "mamrotać, mruczeć",
+      "category": "Brave New World"
+    },
+    {
+      "word": "to interrupt",
+      "description": "przerywać",
+      "category": "Brave New World"
+    },
+    {
+      "word": "to speak your mind",
+      "description": "mówić, co się myśli",
+      "category": "Brave New World"
+    },
+    {
+      "word": "to have a word with",
+      "description": "zamienić słowo z",
+      "category": "Brave New World"
+    },
+    {
+      "word": "depressing",
+      "description": "przygnębiający",
+      "category": "Describing Books"
+    },
+    {
+      "word": "entertaining",
+      "description": "zabawny, rozrywkowy",
+      "category": "Describing Books"
+    },
+    {
+      "word": "fast-moving",
+      "description": "wartki, szybko rozwijający się",
+      "category": "Describing Books"
+    },
+    {
+      "word": "gripping",
+      "description": "wciągający, pasjonujący",
+      "category": "Describing Books"
+    },
+    {
+      "word": "haunting",
+      "description": "zapadający w pamięć, prześladujący",
+      "category": "Describing Books"
+    },
+    {
+      "word": "heavy-going",
+      "description": "ciężki w odbiorze, nużący",
+      "category": "Describing Books"
+    },
+    {
+      "word": "implausible",
+      "description": "nieprawdopodobny",
+      "category": "Describing Books"
+    },
+    {
+      "word": "intriguing",
+      "description": "intrygujący",
+      "category": "Describing Books"
+    },
+    {
+      "word": "moving",
+      "description": "wzruszający",
+      "category": "Describing Books"
+    },
+    {
+      "word": "thought-provoking",
+      "description": "skłaniający do myślenia",
+      "category": "Describing Books"
     }
   ]
 }
